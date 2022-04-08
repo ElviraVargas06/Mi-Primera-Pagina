@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>DACAPHARMA</title>
+  </head>
+  <body>
+   
+    <!--Navbar-->
+
+    <nav id="navbar-example3" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <img src="img/dacapharma.jpg"  alt="" width="200" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active text-dark" aria-current="page">Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="nosotros.html" class="nav-link text-dark">Nosotros
+                        </a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a href="contactenos.html" class="nav-link text-dark">Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Fin Navbar-->
+
+    <!--FORMULARIO-->
+
+     <main class="bg-light container py-5">
+        <h1 class="text-center text-dark py-5 display-6">Contacto</h1>       
+        <div>
+            <form action="" class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                    <label for="text-1" class="form-label text-dark">Nombre</label>
+                    <input type="text"
+                            id="text-1"
+                            class="form-control"
+                            placeholder="Ingrese su nombre"
+                            required>
+                    <div class="invalid-feedback">Coloque su nombre</div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="text-2" class="form-label text-dark">Nombre empresa</label>
+                    <input type="text"
+                            id="text-2"
+                            class="form-control"
+                            placeholder="Ingrese nombre de la empresa"
+                            required>
+                            <div class="invalid-feedback">Coloque el nombre de la empresa en caso que sea persona natural coloque XXXXXX</div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="text-3" class="form-label text-dark">Correo</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="iconoUserName">@</span>
+                        <input type="text"
+                                required
+                                class="form-control"
+                                id="text-3"
+                                aria-describedby="iconoUserName"
+                                placeholder="Ingrese su correo">
+                        <div class="invalid-feedback">Coloque su correo</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="text-4" class="form-label text-dark">Asunto</label>
+                    <input type="text"
+                            id="text-4"
+                            class="form-control"
+                            placeholder="¿Cuál es el asunto para su mensaje?"
+                            required>
+                    <div class="invalid-feedback">Coloque el asunto</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="text-5" class="form-label text-dark">Ciudad</label>
+                    <select name="" id="text-5" class="form-select" required>
+                        <option value="" selected disabled>Seleccionar ciudad</option>
+                        <option value="">Barranquilla</option>
+                        <option value="">Bogotá</option>
+                        <option value="">Medellin</option>
+                    </select>
+                
+                <div class="invalid-feedback">Selecciona una Ciudad</div>
+            </div>
+                <div class="col-md-12">
+                    <label for="text-6" class="form-label text-dark">Mensaje</label>
+                    <textarea class="form-control" id="text-6"
+                             placeholder="Ingrese el mensaje..Favor en caso de cotizar productos describir con el mayor detalle posible" 
+                             required></textarea>
+                    <div class="invalid-feedback">
+                      Coloque el mensaje a enviar
+                    </div>
+                </div>
+                <p class="lead text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic earum sint illum distinctio dolorum non laudantium odit facere porro, vel quas beatae eos similique recusandae id veniam saepe dolorem et.</p>  
+                
+                <div class="col-12">
+                    <div class="form-check">
+                        <input type="checkbox"
+                                class="form-check-input"
+                                value=""
+                                id="text-7"
+                                required>
+                        <label for="text-7" class="form-check-label text-dark">Acepte las políticas de tratamiento de datos</label>
+                        <div class="invalid-feedback">
+                            Acepte las Condiciones
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit"
+                            class="btn btn-success"
+                            >
+                        Procesar...
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+     <!--FIN FORMULARIO-->
+
+        <!--Footer-->
+     <footer class="container-fluid bg-dark py-3 text-center text-light">
+       
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="text-center text-secondary display-6">Más información de la compañia</h4>
+                <p class="lead pb-2 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere quasi exercitationem eveniet
+                accusantium architecto excepturi laudantium, ipsam alias, tenetur reprehenderit vitae cum beatae,
+                assumenda vel culpa praesentium quas sint.
+                 </p>
+            </div>           
+            <div class="row text-center">
+                <h4 class="text-center text-secondary display-6">Información de contacto</h4>
+                <div class="col-12 col-md-4 mb-5"> 
+                    <img src="img/house.png" class="p-2 bd-highlight">Lorem ipsum dolor sit amet.           
+                </div>
+                <div class="col-12 col-md-4 mb-5"> 
+                    <img src="img/mobile.png" class="p-2 bd-highlight">Lorem ipsum dolor sit amet.           
+                </div> 
+                <div class="col-12 col-md-4 mb-5"> 
+                    <img src="img/correo.png" class="p-2 bd-highlight">Lorem ipsum dolor sit amet.           
+                </div>    
+            </div>
+            <div class="row text-center">
+                <p class="lead pb-2">@2022 Todos los derechos Reservados</p>
+            </div>
+         </div>
+    </footer>
+
+     <!--Fin Footer-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/formulario.js"></script>
+    
+</body>
+</html>
